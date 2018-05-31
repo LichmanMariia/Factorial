@@ -3,7 +3,7 @@ package org.itstep;
 public class AppRunner {
 
 	public static void main(String[] args) {
-		int number = 16;
+		int number = 8;
 		FactorialInit factorialInit = new FactorialInit();
 		int factorial = factorialInit.getFactorial(number);
 		if(number>=0 && number != 10) {
